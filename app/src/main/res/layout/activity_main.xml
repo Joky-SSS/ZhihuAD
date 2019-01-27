@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+
+    </android.support.v7.widget.RecyclerView>
+    <!--<ImageView android:layout_width="300dp"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:src="@mipmap/hh"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:layout_centerInParent="true"/>-->
+
+    <!--<com.jokysss.mirror.widget.PathHoverView-->
+    <!--android:id="@+id/pathView"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:orientation="horizontal">-->
+    <!--<ImageView android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@mipmap/ff"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--/>-->
+    <!--</com.jokysss.mirror.widget.PathHoverView>-->
+
+    <!--<SeekBar-->
+    <!--android:id="@+id/progress_circular"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="100dp"-->
+    <!--android:layout_marginStart="50dp"-->
+    <!--android:layout_marginEnd="50dp"-->
+    <!--android:max="100"-->
+    <!--android:min="0"-->
+    <!--android:progress="100"-->
+    <!--/>-->
+</RelativeLayout>
